@@ -1,20 +1,16 @@
+import MainLayout from "./layouts/MainLayout";
+
 export default function App() {
   return (
-    <main
-      className="min-h-screen flex items-center justify-center"
-      style={{
-        background: "var(--background)",
-        color: "var(--text)",
-        fontFamily: "var(--font-body)",
-      }}
-    >
+    <MainLayout>
       <h1
+        className="flex min-h-screen items-center justify-center font-bold"
         style={{
           fontSize: "var(--fs-display)",
         }}
       >
-        Building software with purpose.
+        Day 2 🚀
       </h1>
-    </main>
+    </MainLayout>
   );
 }
