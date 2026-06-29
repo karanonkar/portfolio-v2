@@ -1,9 +1,13 @@
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-blue-500">
-        Tailwind CSS v4 Working 🚀
-      </h1>
+    <div
+      className="min-h-screen flex items-center justify-center"
+      style={{
+        background: "var(--background)",
+        color: "var(--text)",
+      }}
+    >
+      <h1 className="text-6xl font-bold">Day 2 🚀</h1>
     </div>
   );
 }
