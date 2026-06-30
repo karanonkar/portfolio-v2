@@ -1,3 +1,7 @@
-export default function Section({ children, className = "" }) {
-  return <section className={`py-24 ${className}`}>{children}</section>;
+export default function Section({ id, className = "", children }) {
+  return (
+    <section id={id} className={`py-24 ${className}`}>
+      {children}
+    </section>
+  );
 }

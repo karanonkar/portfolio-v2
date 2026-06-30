@@ -1,30 +1,8 @@
-export default function Button({ children, variant = "primary", onClick }) {
-  const variants = {
-    primary: "bg-blue-500 text-white hover:bg-blue-600",
-
-    secondary: "border border-white/15 hover:bg-white/5 text-white",
-  };
-
+export default function Button({ children, className = "", ...props }) {
   return (
     <button
-      onClick={onClick}
-      className={`
-
-        rounded-xl
-
-        px-6
-
-        py-3
-
-        font-medium
-
-        transition-all
-
-        duration-300
-
-        ${variants[variant]}
-
-      `}
+      {...props}
+      className={`rounded-xl bg-blue-600 px-6 py-3 font-semibold transition hover:bg-blue-500 ${className}`}
     >
       {children}
     </button>

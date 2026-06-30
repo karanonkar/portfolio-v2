@@ -1,48 +1,72 @@
-# CHANGELOG
+# Changelog
 
 All notable changes to this project will be documented here.
 
 ---
 
-# Day 1 — Project Foundation
+# [0.1.0] - Day 1 - Project Initialization
 
-## Added
-
-* Initialized React + Vite project
-* Created Express backend
-* Installed frontend dependencies
-* Installed backend dependencies
-* Initialized Git repository
-* Connected GitHub repository
-* Created project structure
-* Added README.md
-* Added DESIGN.md
-
-## Result
-
-Project foundation completed successfully.
+### Added
+- Initialized MERN Portfolio repository
+- Created React + Vite frontend
+- Created Express backend
+- Configured Git repository
+- Added initial project documentation (README.md)
+- Created DESIGN.md for project architecture
+- Established scalable folder structure
 
 ---
 
-# Day 2 — Design System
+# [0.2.0] - Day 2 - Hero Foundation
 
-## Added
+### Added
+- Responsive navigation bar
+- Navigation configuration file
+- Hero section layout
+- Hero illustration placeholder
+- Initial dark theme
+- Responsive hero structure
 
-* Tailwind CSS v4 configuration
-* Global theme system
-* Typography system
-* Reusable layout architecture
-* Reusable UI components
-* Opening feature architecture
+### Improved
+- Project folder organization
+- Component-based architecture
 
-## Refactored
+---
 
-* Introduced feature-based folder structure.
-* Separated layout from feature implementation.
-* Added reusable design system components.
+# [0.3.0] - Day 3 - Reusable Architecture
 
-## Status
+### Added
+- Reusable UI components
+  - Button
+  - Badge
+  - Heading
+  - Text
+- Reusable layouts
+  - Container
+  - MainLayout
+  - Section
+- Background component
+- Theme styles
+- Typography styles
 
-Design System Completed
+### Fixed
+- Asset import path issues
+- Hero image rendering
+- Folder structure inconsistencies
 
-Landing Experience Ready for Development
+### Refactored
+- Moved all assets into `src/assets`
+- Standardized project architecture
+- Improved component organization
+
+---
+
+## Upcoming (Day 4)
+
+- Premium Hero redesign
+- Aurora background
+- Floating tech icons
+- Glassmorphism
+- Mouse parallax
+- CTA animations
+- Scroll indicator

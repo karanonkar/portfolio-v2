@@ -1,19 +1,7 @@
-:root {
-  --font-heading: "Inter", sans-serif;
+body{
+  font-family:Inter,sans-serif;
+}
 
-  --font-body: "Inter", sans-serif;
-
-  --fs-display: clamp(3.5rem, 8vw, 6rem);
-
-  --fs-h1: clamp(2.8rem, 6vw, 4.5rem);
-
-  --fs-h2: clamp(2rem, 5vw, 3rem);
-
-  --fs-h3: 1.75rem;
-
-  --fs-body: 1rem;
-
-  --fs-small: 0.9rem;
-
-  --line-height: 1.6;
+h1,h2,h3{
+  letter-spacing:-0.03em;
 }

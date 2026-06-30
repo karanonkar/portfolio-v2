@@ -1,25 +1,9 @@
-export default function Heading({
-  children,
-
-  className = "",
-}) {
+export default function Heading({ children, className = "" }) {
   return (
-    <h1
-      style={{
-        fontSize: "var(--fs-display)",
-      }}
-      className={`
-
-        font-bold
-
-        leading-none
-
-        ${className}
-
-      `}
+    <h2
+      className={`text-4xl font-bold tracking-tight lg:text-6xl ${className}`}
     >
       {children}
-    </h1>
+    </h2>
   );
 }
-
