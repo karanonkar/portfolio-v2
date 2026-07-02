@@ -1,22 +1,20 @@
-export const navigation = [
+const navigation = [
   {
-    id: 1,
-    title: "Journey",
+    name: "Journey",
     href: "#journey",
   },
   {
-    id: 2,
-    title: "Projects",
+    name: "Projects",
     href: "#projects",
   },
   {
-    id: 3,
-    title: "Skills",
+    name: "Skills",
     href: "#skills",
   },
   {
-    id: 4,
-    title: "Contact",
+    name: "Contact",
     href: "#contact",
   },
 ];
+
+export default navigation;

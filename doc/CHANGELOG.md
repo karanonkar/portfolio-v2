@@ -70,3 +70,21 @@ All notable changes to this project will be documented here.
 - Mouse parallax
 - CTA animations
 - Scroll indicator
+
+# Day 5 (02 July 2026)
+
+## Added
+
+- Created Journey feature module
+- Added professional timeline section
+- Added reusable TimelineCard component
+- Connected timeline using TimelineData
+- Added responsive Journey layout
+- Implemented smooth scrolling navigation
+- Improved project architecture using reusable components
+
+## Improved
+
+- Better folder organization
+- Cleaner component separation
+- Enhanced code readability
